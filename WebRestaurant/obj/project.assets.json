@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Restaurant/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Restaurant.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Restaurant.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Restaurant/1.0.0": {
-      "type": "project",
-      "path": "../ConsoleApp1/Restaurant.csproj",
-      "msbuildProject": "../ConsoleApp1/Restaurant.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Restaurant >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\vmirc\\.nuget\\packages\\": {}
@@ -52,11 +33,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\vmirc\\Desktop\\repository\\MyAppRestaurant\\ConsoleApp1\\Restaurant.csproj": {
-              "projectPath": "C:\\Users\\vmirc\\Desktop\\repository\\MyAppRestaurant\\ConsoleApp1\\Restaurant.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

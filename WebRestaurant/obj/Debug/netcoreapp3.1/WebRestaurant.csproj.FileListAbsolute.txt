@@ -1,7 +1,3 @@
-C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\Restaurant.deps.json
-C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\Restaurant.runtimeconfig.json
-C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\Restaurant.runtimeconfig.dev.json
-C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\Restaurant.exe
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\WebRestaurant.exe
@@ -12,8 +8,6 @@ C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcor
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\WebRestaurant.pdb
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\WebRestaurant.Views.dll
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\WebRestaurant.Views.pdb
-C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\Restaurant.dll
-C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\bin\Debug\netcoreapp3.1\Restaurant.pdb
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\obj\Debug\netcoreapp3.1\WebRestaurant.csproj.AssemblyReference.cache
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\obj\Debug\netcoreapp3.1\WebRestaurant.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\vmirc\Desktop\repository\MyAppRestaurant\WebRestaurant\obj\Debug\netcoreapp3.1\WebRestaurant.AssemblyInfoInputs.cache
