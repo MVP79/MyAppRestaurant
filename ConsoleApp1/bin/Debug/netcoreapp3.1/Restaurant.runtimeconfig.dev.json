@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\vmirc\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vmirc\\.nuget\\packages"
+    ]
+  }
+}

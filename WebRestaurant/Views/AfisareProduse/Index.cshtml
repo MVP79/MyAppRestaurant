@@ -1,0 +1,40 @@
+﻿@using Restaurant;
+@model List<Produs>
+
+<form action="@Url.Action("Search")" method="post" class="form-inline mt-2 mb-2">
+    <input type="text" name="criteria" class="form-control m1-1 mr-1" />
+    <button type="submit" class="btn btn-info form-control m1-1 mr-1 ">Search</button>
+
+</form>
+
+<div class=" d-flex flex-row flex-wrap">
+
+    @foreach (Produs item in Model)
+    {
+        <div class=" card">
+            <div class=" card-header">
+                <div class="card-title">
+                    @item.Title
+
+                </div>
+                <p class=" card-subtitle">Pret in RON:@item.Price</p>
+            </div>
+            <div class=" card-body">
+                <img src="@item.ImageUrl" width="200" />
+                <div class="card-text">
+                    <p>@item.Details</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="@Url.Action("Details" ,"AfisareProduse", new {Id = item.Id})" class="btn btn-success">Details</a>
+                <a href="@Url.Action("AdaugaInCos","AfisareProduse", new {Id = item.Id})" class="btn btn-dark" style="float:right">Adauga in cos</a>
+            </div>
+
+
+        </div>
+
+
+    }
+
+
+</div>

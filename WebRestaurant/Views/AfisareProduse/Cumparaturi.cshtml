@@ -1,0 +1,39 @@
+﻿@using Restaurant;
+
+@model List<Produs>
+
+
+<h1>Cos Cumparaturi</h1>
+<div class=" d-flex flex-row flex-wrap">
+    @{ int suma = 0;}
+
+    @foreach (Produs item in Model)
+    {
+        <div class=" card">
+            <div class=" card-header">
+                <div class="card-title">
+                    @item.Title
+
+                </div>
+                <p class=" card-subtitle">Pret in RON:@item.Price</p>
+
+            </div>
+            <div class=" card-body">
+                <img src="@item.ImageUrl" width="200" />
+                <div class="card-text">
+                    <p>@item.Details</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="@Url.Action("Details", "AfisareProduse", new { Id = item.Id })" class="btn btn-success">Details</a>
+                <a href="@Url.Action("Stergere", "AfisareProduse", new { Id = item.Id })" class="btn btn-success">Stergere produs</a>
+            </div>
+
+
+        </div>
+        suma += (int)item.Price;
+    }
+
+</div>
+<h2>Total cumparaturi in RON: @suma</h2>
+

@@ -1,0 +1,14 @@
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\vmirc\Desktop\repository\MyAppRestaurant\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
