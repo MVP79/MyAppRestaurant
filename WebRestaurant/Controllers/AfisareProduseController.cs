@@ -4,28 +4,28 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using WebRestaurant.Models;
 
 
 namespace WebRestaurant.Controllers
 {
     public class AfisareProduseController : Controller
     {
-        public static AfisareProduse Home { get; set; }
+        public static ProduseBusiness _produse { get; set; }
+      
         public static List<Produs> Cumparaturi = new List<Produs>();
 
 
         public IActionResult Index()
         {
-            Home = new AfisareProduse();
-
-            return View(Home.Produse);
+            _produse = new ProduseBusiness();
+            return View(_produse.AfisareProduse.Produse);
 
         }
         public IActionResult Details(int id)
         {
-            Home = new AfisareProduse();
-            var found = Home.Produse.Find(a => a.Id == id);
+            
+            var found = _produse.GetById(id);
             if (found != null)
             {
                 return View(found);
@@ -36,11 +36,11 @@ namespace WebRestaurant.Controllers
             }
         }
 
-        public IActionResult AdaugaInCos(int Id)
+        public IActionResult AdaugaInCos(int id)
         {
-            Home = new AfisareProduse();
 
-            var found = Home.Produse.Find(a => a.Id == Id);
+
+           var found = _produse.GetById( id);
             if (found != null)
             {
                 Cumparaturi.Add(found);
@@ -73,8 +73,7 @@ namespace WebRestaurant.Controllers
         [HttpPost]
         public IActionResult Search(string criteria)
         {
-            var filtered = Home.Produse.Where(a =>
-            a.Title.Contains(criteria) || a.Details.Contains(criteria)).ToList();
+            var filtered = _produse.Search(criteria);
 
 
             return View("Index", filtered);
