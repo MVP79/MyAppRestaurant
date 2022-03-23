@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Restaurant;
+using WebRestaurant;
 using System;
 using System.Collections.Generic;
 using System.Linq;

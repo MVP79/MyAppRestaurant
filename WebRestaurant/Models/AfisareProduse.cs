@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Restaurant;
+using WebRestaurant;
 
-namespace Restaurant
+namespace WebRestaurant
+
 {
     public class AfisareProduse
     {
