@@ -1,6 +1,6 @@
 ﻿@using WebRestaurant;
 @model List<Produs>
-
+<a href="@Url.Action("ListByPrice", "AfisareProduse")"class="btn btn-primary">Sort by Price</a>
 <form action="@Url.Action("Search")" method="post" class="form-inline mt-2 mb-2">
     <input type="text" name="criteria" class="form-control m1-1 mr-1" />
     <button type="submit" class="btn btn-info form-control m1-1 mr-1 ">Search</button>

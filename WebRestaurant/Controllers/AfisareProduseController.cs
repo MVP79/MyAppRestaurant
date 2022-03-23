@@ -61,6 +61,12 @@ namespace WebRestaurant.Controllers
 
             return RedirectToAction("ViewCumparaturi");
         }
+       
+        public IActionResult ListByPrice()
+        {
+            var ordered = _produse.ListByPrice();
+            return View("Index", ordered);
+        }
 
 
         public IActionResult ViewCumparaturi()

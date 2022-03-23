@@ -18,6 +18,10 @@ namespace WebRestaurant.Models
         {
             return this.AfisareProduse.Produse.Find(a => a.Id == id);
         }
+        public List<Produs> ListByPrice()
+        {
+            return this.AfisareProduse.Produse.OrderBy(a => a.Price).ToList();
+        }
 
         public List<Produs> Search(string criteria)
         {

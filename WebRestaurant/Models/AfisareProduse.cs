@@ -21,7 +21,7 @@ namespace WebRestaurant
                 Id = 1,
                 Title = "Ciorba de pui",
                 Details = "carne de pui, diverse legume, cartofi",
-                Price = 12,
+                Price = 14,
                 ImageUrl = "https://d1lqpgkqcok0l.cloudfront.net/site/binaries/_ht_1588072271000/lg/content/gallery/image-components/mega-image-romania-ro/articol-retete-ciorba-pui/cmsitem_00013710.jpg"
             });
             Produse.Add(new Produs
@@ -29,7 +29,7 @@ namespace WebRestaurant
                 Id = 2,
                 Title = "Ciorba de porc",
                 Details = "carne de porc, diverse legume",
-                Price = 14,
+                Price = 10,
                 ImageUrl = "https://d1lqpgkqcok0l.cloudfront.net/site/binaries/_ht_1588072271000/lg/content/gallery/image-components/mega-image-romania-ro/articol-retete-ciorba-pui/cmsitem_00013711.jpg"
             });
             Produse.Add(new Produs
@@ -37,7 +37,7 @@ namespace WebRestaurant
                 Id = 3,
                 Title = "Ciorba de curcan",
                 Details = "carne de curcan, diverse legume",
-                Price = 16,
+                Price = 19,
                 ImageUrl = "https://d1lqpgkqcok0l.cloudfront.net/site/binaries/_ht_1588072271000/lg/content/gallery/image-components/mega-image-romania-ro/articol-retete-ciorba-pui/cmsitem_00013763.jpg"
             });
             Produse.Add(new Produs
@@ -53,7 +53,7 @@ namespace WebRestaurant
                 Id = 5,
                 Title = "Burger vegetarian",
                 Details = "naut, salata, ceapa, andiva",
-                Price = 38,
+                Price = 32,
                 ImageUrl = "https://thesmartcuisine.com/wp-content/uploads/2016/02/IMG_3615-2-1024x683.jpg"
             });
             Produse.Add(new Produs
